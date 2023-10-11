@@ -166,13 +166,13 @@ I was having a banana and a fancy cocktail
 <br>
 
 ## Current use cases
-- Can generate any post caption for YouTube or Instagram, based on any template.
-- Can recursively generate an output based on the previous output and a seed template.
-- Generate Midjourney and ChatGPT prompts by combining sets of words.
+- Can generate any post caption for YouTube or Instagram, based on any template
+- Can recursively generate an output based on the previous output and a seed template
+- Generate groups of hashtags from various sets
+- Generate Midjourney and ChatGPT prompts by combining sets of words
 
 **Upcoming features**
 - Statistics for the recursive mode
-- Generate groups of hashtags from various sets
 - Generate ASCII or even Unicode art from images
 - Being able to escape special characters directly to output
 
