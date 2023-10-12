@@ -26,6 +26,13 @@ builder = txtbuilder.TXTB(INPUT_NAME)
 builder.generateTxt(OUTPUT_NAME)
 ```
 
+Add the following inside a `builder.config` file and put it in the same directory as the above script.
+
+```
+%%
+%
+```
+
 Make sure to check the constants in the imported script to tweak things accordingly.
 
 <br>
