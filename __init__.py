@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Official Docs: https://github.com/mz3r0/small-bang/blob/main/Python%20Projects/TXTBuilder/README.md
+
 import re
 import random
 
@@ -58,6 +58,8 @@ class TXTB:
         # self.data is NOT modified during this process
         for i in range(self.dataLen):
             element = self.data[i].strip()
+            if len(element.split('\n')) == 1:
+                continue
             line1, line2 = element.split('\n')
 
             if line1[0] == "#" and len(line1) > 2 and line1.count("#") == 2:
