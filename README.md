@@ -15,9 +15,12 @@ OUTPUT_NAME = "output.txt"
 
 argLen = len(sys.argv)
 
+print(argLen)
+
 if argLen > 1:
 	INPUT_NAME = sys.argv[1]
-elif argLen > 2:
+
+if argLen > 2:
 	OUTPUT_NAME = sys.argv[2]
 
 # Additional arguments are ignored
