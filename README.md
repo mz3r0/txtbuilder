@@ -173,4 +173,5 @@ Work in progress :)
 - Exceptions rising & handling
 - Support for huge files - scalability
 - Formalize the syntax to avoid undefined behavior (I haven't tried breaking it in every possible way)
+- Move all functions used in 'wrapping' in their own class to enable subclassing and additional definitions by the user
 
